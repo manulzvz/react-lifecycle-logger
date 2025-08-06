@@ -1,20 +1,20 @@
 # React Lifecycle Logger
 
-**React Lifecycle Logger** es una aplicación de demostración construida con React y Vite para visualizar y registrar las fases del ciclo de vida de los componentes en tiempo real.
+React Lifecycle Logger is a demo application built with React and Vite to visualize and log component lifecycle phases in real time.
 
-## Características
+## Features
 
-- **Componentes de Función**: Utiliza hooks `useEffect` para registrar fases de montaje y actualización.
-- **Controles Interactivos**: Botones para montar, actualizar props y desmontar componentes dinámicamente.
-- **Registro en Vivo**: Visualiza los logs en la consola del navegador conforme interactúas con la aplicación.
+- **Functional Components**: Uses `useEffect` to log mount and update phases.
+- **Interactive Controls**: Buttons to mount, update props, and unmount components dynamically.
+- **Live Logging**: Displays logs in the browser console as you interact.
 
 ## Demo
 
-1. Ejecuta la aplicación localmente.
-2. Abre la consola de desarrollo del navegador.
-3. Usa los botones de la interfaz para montar o desmontar componentes y observa los logs en tiempo real.
+1. Run the application locally.
+2. Open your browser’s developer console.
+3. Use the UI buttons to mount, update props, or unmount components and watch the logs in real time.
 
-## Instalación
+## Installation
 
 ```bash
 git clone https://github.com/manulzvz/react-lifecycle-logger.git
@@ -22,31 +22,31 @@ cd react-lifecycle-logger
 npm install
 ```
 
-## Desarrollo
+## Development
 
 ```bash
 npm run dev
 ```
 
-Abre tu navegador en `http://localhost:5173`.
+Open your browser at `http://localhost:5173`.
 
-## Build y Preview
+## Build & Preview
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 react-lifecycle-logger
 ├── src
-│   ├── main.jsx                  # Punto de entrada
-│   ├── App.jsx                   # Componente raíz
-│   ├── ClassComponentLogger.jsx  # Demo de componente de clase
-│   ├── FunctionComponentLogger.jsx # Demo de componente funcional
-│   └── /* otros componentes */
+│   ├── main.jsx                    # Entry point
+│   ├── App.jsx                     # Root component
+│   ├── ClassComponentLogger.jsx    # Class component demo
+│   ├── FunctionComponentLogger.jsx # Functional component demo
+│   └── ...                         # Other components
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -54,6 +54,6 @@ react-lifecycle-logger
 └── README.md
 ```
 
-## Contribuciones
+## Contributing
 
-¡Se aceptan contribuciones y sugerencias! Abre un issue o envía un pull request para mejoras.
+Contributions and suggestions are welcome! Open an issue or submit a pull request for improvements.
